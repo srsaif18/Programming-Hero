@@ -24,7 +24,8 @@ p {
 }
 
 .half-width {
-    width: 50%;
+    width: 45%;
+    margin: 0% 2.5%;
 }
 .half-width img {
     width: 100%;
@@ -50,5 +51,18 @@ p {
     width: 42%;
     margin: 4% 4%;
     padding: 5px;
-    border-left: 1rem solid chartreuse;
+}
+.experiences {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+#full-stack-developer{
+    border-left: 10px solid tomato;
+}
+#baby-web-developer{
+    border-left: 10px solid blue;
+}
+footer p {
+    text-align: center;
 }
